@@ -685,3 +685,26 @@ textarea {
     width: 2000px; 
     height: auto; 
 }
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+.login-signup {
+	display: flex;
+	gap: 1rem;
+}
+
+.navbar-link {
+	color: #333; /* Adjust color as needed */
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	transition: color 0.3s;
+}
+
+.navbar-link:hover {
+	color: #007bff; /* Adjust color on hover as needed */
+}
