@@ -678,4 +678,10 @@ textarea {
 		top: 0;
 		overflow: hidden;
 	}
+
+	
+}
+.firstimage {
+    width: 2000px; 
+    height: auto; 
 }
