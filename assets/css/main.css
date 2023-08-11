@@ -678,12 +678,10 @@ textarea {
 		top: 0;
 		overflow: hidden;
 	}
-
-	
 }
 .firstimage {
-    width: 2000px; 
-    height: auto; 
+	width: 2000px;
+	height: auto;
 }
 .navbar {
 	display: flex;
@@ -695,16 +693,24 @@ textarea {
 .login-signup {
 	display: flex;
 	gap: 1rem;
+	align-items: center; /* This centers the content vertically */
 }
 
 .navbar-link {
-	color: #333; /* Adjust color as needed */
+	/* ... (your existing styles) ... */
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 14px;
 	transition: color 0.3s;
+	display: inline-block; /* This makes the links inline with block-level styling */
+	color: #333; /* Adjust color as needed */
 }
 
 .navbar-link:hover {
 	color: #007bff; /* Adjust color on hover as needed */
+}
+.sign-cont {
+	align-items: center;
+	width: max-content;
+	padding-left: 10px;
 }
